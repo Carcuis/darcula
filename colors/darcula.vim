@@ -179,7 +179,7 @@ call s:Hi('CursorLineNr', s:p.cursorLineNr, s:p.cursorLine)
 call s:Hi('MatchParen', s:p.matchBraceFg, s:p.matchBraceBg, 'bold')
 call s:Hi('ModeMsg', s:p.stdOutput)
 hi! link MoreMsg NormalFg
-call s:Hi('NonText', s:p.muted)
+call s:Hi('NonText', s:p.statusLine)
 call s:Hi('Pmenu', s:p.menuFg, s:p.menu)
 call s:Hi('PmenuSel', s:p.menuFg, s:p.menuSel)
 call s:Hi('PmenuSbar', s:p.menu, s:p.menu)
