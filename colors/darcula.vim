@@ -251,11 +251,11 @@ call s:Hi('UISelection', s:p.null, s:p.UISelection)
 if has('nvim')
   " the following code snippet fix an issue with CursorLine hi group
   " see https://github.com/neovim/neovim/issues/9019
-  if has('termguicolors') && &termguicolors
-    hi CursorLine ctermfg=white
-  else
-    hi CursorLine guifg=white
-  endif
+  " if has('termguicolors') && &termguicolors
+  "   hi CursorLine ctermfg=white
+  " else
+  "   hi CursorLine guifg=white
+  " endif
   hi! link NormalFloat Pmenu
   hi! link NormalNC NormalFg
   hi! link MsgArea NormalFg
