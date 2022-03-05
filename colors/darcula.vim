@@ -155,7 +155,7 @@ endfunction
 call s:Hi('Normal', s:p.fg, s:p.bg)
 call s:Hi('ColorColumn', s:p.null, s:p.wrapGuide)
 call s:Hi('Conceal', s:p.muted, s:p.bg)
-call s:Hi('Cursor', s:p.cursor)
+call s:Hi('Cursor', s:p.bg, s:p.cursor)
 hi! link lCursor Cursor
 hi! link CursorIM Cursor
 hi! link CursorColumn CursorLine
