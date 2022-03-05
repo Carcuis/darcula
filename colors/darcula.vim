@@ -168,7 +168,7 @@ hi! link Directory NormalFg
 hi! link EndOfBuffer NonText
 call s:Hi('ErrorMsg', s:p.errorMsg)
 call s:Hi('Error', s:p.error)
-call s:Hi('VertSplit', s:p.muted)
+call s:Hi('VertSplit', s:p.gutter, s:p.gutter)
 call s:Hi('Folded', s:p.foldedFg, s:p.foldedBg)
 hi! link FoldColumn Folded
 call s:Hi('SignColumn', s:p.null, s:p.gutter)
